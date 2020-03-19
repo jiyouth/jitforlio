@@ -1,0 +1,19 @@
+.header{
+    text-align: center;
+    background-color: aquamarine;
+    color: violet;
+    height: 70px;
+    width: 500px;
+}
+.main{
+    text-align: center;
+    background-color: rebeccapurple;
+}
+.footer{
+    text-align: center;
+    background-color: salmon;
+    color: steelblue;
+}
+
+a{
+    color: red;}

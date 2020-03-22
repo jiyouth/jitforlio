@@ -4,3 +4,6 @@ from django.shortcuts import render
 
 def home(request):
     return render(request, 'jitforlio/home.html')
+
+def visualdesign(request):
+    return render(request, 'jitforlio/visualdesign.html')

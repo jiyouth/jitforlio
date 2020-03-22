@@ -20,4 +20,6 @@ import jitforlio.views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('',jitforlio.views.home,name="home"),
+    path('visualdesign/',jitforlio.views.visualdesign,name="visualdesign")
 ]
+

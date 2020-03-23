@@ -1,19 +1,57 @@
+*{
+    background-color: rgb(253, 255, 231);
+    box-sizing: border-box;
+}
+
+header{
+    text-align: center;
+    background-color: rgb(0, 255, 170);
+    color: violet;
+    height:200px;
+    border-radius: 10px 10px 10px 10px;
+    border-color: darkcyan;
+    border-style: dotted;
+    border-width: 5px;
+}
+
 .header{
     text-align: center;
-    background-color: aquamarine;
-    color: violet;
-    height: 70px;
-    width: 600px;
+    height:200px;
+    background-color: chocolate;
 }
-.main{
+
+
+
+section{
+    display:flex;
     text-align: center;
+    height:700px;
     background-color: rebeccapurple;
+    margin: 50px auto;
+    justify-content: center;
+    
 }
-.footer{
+
+nav{
+    background-color: darkgray;
+    width: 30%;
+}
+
+aside{
+    background-color: darkgreen;
+    width: 20%;
+}
+
+article{
+    background-color: rgb(11, 129, 184);
+    width: 50%;
+}
+footer{
     text-align: center;
-    background-color: salmon;
+    height:300px;
+    background-color: rgb(211, 114, 250);
     color: steelblue;
 }
 
 a{
-    color: red;}
+    color: rgb(0, 132, 255);}

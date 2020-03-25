@@ -7,3 +7,6 @@ def home(request):
 
 def visualdesign(request):
     return render(request, 'jitforlio/visualdesign.html')
+
+def youtube(request):
+    return render(request, 'jitforlio/visualdesign.html')

@@ -24,28 +24,33 @@ header{
 
 section{
     display:flex;
-    text-align: center;
+    text-align:center;
     height:700px;
     background-color: rebeccapurple;
     margin: 50px auto;
-    justify-content: center;
-    
+    justify-content: space-between;
+    align-items: flex-start;
 }
 
 nav{
     background-color: darkgray;
     width: 30%;
+    height: 100px;
 }
 
 aside{
     background-color: darkgreen;
-    width: 20%;
+    width: 10%;
+    height: 100px;
 }
+
 
 article{
     background-color: rgb(11, 129, 184);
-    width: 50%;
+    width: 20%;
+    height: 100px;
 }
+
 footer{
     text-align: center;
     height:300px;

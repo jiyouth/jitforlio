@@ -16,10 +16,11 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 import jitforlio.views
-
+#jitforlio의 views.py파일을 불러온다.
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('',jitforlio.views.home,name="home"),
     path('visualdesign/',jitforlio.views.visualdesign,name="visualdesign")
+    path('youtube/',jitforlio.views.youtube,name='youtube')
 ]
 

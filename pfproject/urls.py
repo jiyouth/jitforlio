@@ -19,8 +19,9 @@ import jitforlio.views
 #jitforlio의 views.py파일을 불러온다.
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('',jitforlio.views.home,name="home"),
+    path('',jitforlio.views.youtube,name="youtube"),
     path('visualdesign/',jitforlio.views.visualdesign,name="visualdesign")
-    path('youtube/',jitforlio.views.youtube,name='youtube')
+    
+    
 ]
 

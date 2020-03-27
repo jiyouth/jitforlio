@@ -3,6 +3,124 @@
 <html>
     <head>
         <title>
-            
+            YouTube
         </title>
+        <meta charset='utf-8'>
         <link rel="stylesheet" type="text/css" href="{% static 'jitforlio/css/youtube.css' %}">
+    </head>
+    
+    <body>
+        <header>
+            <div>
+                <img style="width: 50px;" src="{%static 'menu.jpg' %}">
+                <img style="width: 120px;" src="{%static 'tube.jpg' %}">
+                
+            </div>
+           
+            <form action="search.php" method="post">
+                <input id="search-box" type="text" title="search">
+                <input type="submit" value="search">
+            </form>
+
+            <div class="profile">
+                <img style="width: 200px" src="{%static 'corner.jpg' %}">
+            </div>
+        </header>
+
+
+        <section>
+            <div class="menu">
+            <ul>
+                <li>홈</li>
+                <li>인기</li>
+                <li>구독</li>
+            <hr>
+                <li>보관함</li>
+                <li>시청기록</li>
+                <li>나중에 볼 동영상</li>
+                <li>좋아요 표시한 동영상</li>
+            <hr>
+                <li>구독</li>
+                <li>지유쓰</li>
+                <li>+ 채널탐색</li>
+            <hr>    
+                <li>유튜브 더보기</li>
+                <li>YouTube Premium</li>
+                <li>YouTube 영화</li>
+                <li>게임</li>
+                <li>실시간</li>
+            </ul>
+            </div>
+            <page>
+            <main> 
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/FYz_rkzQn2Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </video>
+
+                <div class="ad">
+                    <img style="width: 700px" src="{%static 'ad.jpg' %}">  
+                </div>
+            </main>
+                <p style="font-size:30px;">
+                    맞춤 동영상
+
+                </p>
+
+                
+                 <div class="videodown">
+                    <div class="video1">
+                     <iframe width="300" height="200" src="https://www.youtube.com/embed/04fCY2_r_qg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                     <br>
+                     <a>
+                        스위치 역사에 남을 디자인, <br>
+                        닌텐도 스위치 모여봐요 동물의 숲 에디션<br>
+                         언박싱 | DO UNBOXING [4K] <br>
+                        GameDO <br>
+                        조회수 21만회 <br>
+                        5일 전</a>
+                     <br>
+                     </div>
+                     <div class="video2">
+                        <iframe width="300" height="200" src="https://www.youtube.com/embed/2InCX6XTL04" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <br>
+                        <a>   
+                           【No광고】 ♬ 감성자극 지브리 애<br>
+                            니 OST 모음 ♬ Studio Ghibli... <br>
+                            Clark Briena<br>
+                            158명 시청 중<br>
+                            <h6 id="stream" style="color:red"> 실시간 스트리밍 중 </h6>     
+                        </a>  
+                    </div>
+
+                    <div class="video3">
+                        <iframe width="300" height="200" src="https://www.youtube.com/embed/04fCY2_r_qg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <br>
+                        <a>
+                           스위치 역사에 남을 디자인, <br>
+                           닌텐도 스위치 모여봐요 동물의 숲 에디션<br>
+                            언박싱 | DO UNBOXING [4K] <br>
+                           GameDO <br>
+                           조회수 21만회 <br>
+                           5일 전</a>
+                        <br>
+                        </div>
+                        <div class="video4">
+                           <iframe width="300" height="200" src="https://www.youtube.com/embed/2InCX6XTL04" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                           <br>
+                           <a>   
+                              【No광고】 ♬ 감성자극 지브리 애<br>
+                               니 OST 모음 ♬ Studio Ghibli... <br>
+                               Clark Briena<br>
+                               158명 시청 중
+                               <h6 id="stream" style="color:red"> 실시간 스트리밍 중 </h6>   
+                           </a>  
+                       </div>
+
+                 </div>        
+
+               
+  
+        </page>
+        </section>
+
+
+    </body>

@@ -1,0 +1,78 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin:0; /* 전체화면 꽉차게 */
+}
+
+header{
+    margin-top: 10px;
+    display:flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+#search-box{
+    width: 700px;
+}
+
+form{
+    margin-top: 20px;
+}
+
+.menu{
+    justify-content: flex-start;
+}
+
+li{
+    padding: 0 20px; 
+    height:40px;
+    padding: 10px 20px;
+    list-style:none;
+    padding-left:0;
+}
+
+section{
+    display: flex;
+    padding:0;
+}
+
+main{
+    display: flex;
+    padding:30px
+}
+
+.ad{
+    padding-left: 30px;
+}
+
+.videodown{
+    display: flex;
+    padding: 30px;
+}
+
+.video1{
+    padding: 10px;
+}
+
+.video2{
+    padding: 10px;
+}
+
+.video3{
+    padding: 10px;
+}
+
+.video4{
+    padding: 10px;
+}
+
+p{
+    padding-left:30px;
+}
+
+#stream{
+    border: 1px solid red;
+    width: 100px;
+  }

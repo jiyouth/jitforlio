@@ -20,8 +20,8 @@ import jitforlio.views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('',jitforlio.views.youtube,name="youtube"),
-    path('visualdesign/',jitforlio.views.visualdesign,name="visualdesign")
-    
+    path('visualdesign/',jitforlio.views.visualdesign,name="visualdesign"),
+    path('home/',jitforlio.views.home,name="home")
     
 ]
 
